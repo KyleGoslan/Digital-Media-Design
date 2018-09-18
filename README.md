@@ -1,10 +1,10 @@
-## Digital-Media-Design
+## Digital Media Design
 Notes
 
 Here you will find support material for the content delivered in the workshops. This will be updated regularly as you progress through the unit.
 
 #### Contents
-<!--+ [01 - Intro](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/01%20-%20Intro%20%26%20Objects)  -->
++ [01 - General Syntax](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/01%20-%20General%20Syntax)  
 
 #### Tips
 + [Tips](https://github.com/KyleGoslan/Digital-Media-Design/blob/master/Tips.md) 
@@ -21,6 +21,3 @@ When you navigate to the repo in a browser, along the top navigation you'll see 
 
 #### Sample Files & Projects
 Where applicable, I'll post files and projects. However, I'll try to refrain from posting full projects unless I feel it's essential. I'll always lean towards posting "completed" examples of files we were working on in the workshops. These will always be in an "Examples" directory for the relevant workshop. For example the "02 - Delegates/Examples" directory has a finished example of the `Person.swift` file and the `ViewController.swift` file for your reference. 
-
-
-
