@@ -1,4 +1,4 @@
-## Digital-Media-Design
+## Digital Media Design
 Notes
 
 Here you will find support material for the content delivered in the workshops. This will be updated regularly as you progress through the unit.
