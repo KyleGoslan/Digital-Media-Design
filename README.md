@@ -5,7 +5,7 @@
 Here you will find support material for the content delivered in the workshops. This will be updated regularly as you progress through the unit.
 
 ### Contents
-+ [01 - General Syntax](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/01%20-%20General%20Syntax)  
++ [00 - General Syntax](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/00%20-%20General%20Syntax)  
 
 ### Tips
 + [Tips](https://github.com/KyleGoslan/Digital-Media-Design/blob/master/Tips.md) 
