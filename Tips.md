@@ -23,5 +23,3 @@ Almost all of you have had a problem with connections from your storyboard to yo
 + Get Familiar with `if let` Syntax		
 We've used options a lot in already in swift (either exclamation points or question marks). The `if let` syntax check for nil. Get familiar with using it.
 
-+ Use Lab Macs	
-I highly recommend you use the macs in the labs when you can. They are powerful hardware and the large screens make them really nice to develop on, don't struggle with a slow small macbook while you have nice hardware at your disposal.
