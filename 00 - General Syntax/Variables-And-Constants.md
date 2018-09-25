@@ -1,4 +1,4 @@
-## Types Variables & Constants
+ ## Types Variables & Constants
 
 Variables are created with the the keyword var. You then assign them a name and a value.
 
