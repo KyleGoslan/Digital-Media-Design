@@ -1,4 +1,4 @@
-##Functions/Methods
+## Functions/Methods
 
 Functions work similarly to what we’ve seen in the past. They are named blocks of code that we can call over and over to perform a task. They are declared with the word func the name we want to give the function, a set of brackets and then a set of curly braces which contains whatever we want to function to do. A simple function looks like this. 
 
