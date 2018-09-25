@@ -10,4 +10,4 @@ Here you will find simple explinations of the most common bits of syntax you'll 
 <!--+ [If let & Guard let](https://github.com/KyleGoslan/Digital-Media-Design/blob/master/00%20-%20/General%20Syntax/)-->
 <!--+ [Loops](https://github.com/KyleGoslan/Digital-Media-Design/blob/master/00%20-%20/General%20Syntax/)-->
 + [Functions/Methods](https://github.com/KyleGoslan/Digital-Media-Design/blob/master/00%20-%20General%20Syntax/Functions-Methods.md)
-+ [Classes](https://github.com/KyleGoslan/Digital-Media-Design/blob/master/00%20-%20/00%20-%20General%20Syntax/Classes.md)
++ [Classes](https://github.com/KyleGoslan/Digital-Media-Design/blob/master/00%20-%20General%20Syntax/Classes.md)
