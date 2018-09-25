@@ -1,4 +1,4 @@
-## Classes
+ ## Classes
 
 Classes are the blueprints for our objects. When we define a class we list all the peices of info an object needs - these are its properties, and and defien all the things that objects does - these are its methods. 
 
