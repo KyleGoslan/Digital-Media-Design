@@ -3,10 +3,11 @@
 Here you will find simple explinations of the most common bits of syntax you'll encounter, master these and everything else will rapidly become a lot easier. 
 
 #### Contents
-<!--+ [Variables & Constants](https://github.com/KyleGoslan/Digital-Media-Design/blob/master/)  -->
-<!--+ [Arrays](https://github.com/KyleGoslan/Digital-Media-Design/blob/master/)  -->
-<!--+ [For Loops](https://github.com/KyleGoslan/Digital-Media-Design/blob/master/)  -->
-<!--+ [If & Guard Statements](https://github.com/KyleGoslan/Digital-Media-Design/blob/master/)  -->
-<!--+ [Optionals](https://github.com/KyleGoslan/Digital-Media-Design/blob/master/)  -->
-<!--+ [If let & Guard let](https://github.com/KyleGoslan/Digital-Media-Design/blob/master/)  -->
-<!--+ [Functions/Methods](https://github.com/KyleGoslan/Digital-Media-Design/blob/master/)  -->
++ [Variables & Constants](https://github.com/KyleGoslan/Digital-Media-Design/blob/master/00%20-%20/General%20Syntax/Variables-And-Constants.md)
+<!--+ [Optionals](https://github.com/KyleGoslan/Digital-Media-Design/blob/master/00%20-%20/General%20Syntax/)-->
+<!--+ [Arrays & Dictionaries ](https://github.com/KyleGoslan/Digital-Media-Design/blob/master/00%20-%20/General%20Syntax/)-->
+<!--+ [If & Guard Statements](https://github.com/KyleGoslan/Digital-Media-Design/blob/master/00%20-%20/General%20Syntax/)  -->
+<!--+ [If let & Guard let](https://github.com/KyleGoslan/Digital-Media-Design/blob/master/00%20-%20/General%20Syntax/)-->
+<!--+ [Loops](https://github.com/KyleGoslan/Digital-Media-Design/blob/master/00%20-%20/General%20Syntax/)-->
++ [Functions/Methods](https://github.com/KyleGoslan/Digital-Media-Design/blob/master/00%20-%20/General%20Syntax/Functions-Methods.md)
++ [Classes](https://github.com/KyleGoslan/Digital-Media-Design/blob/master/00%20-%20/General%20Syntax/Classes.md)
