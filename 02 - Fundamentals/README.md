@@ -14,7 +14,7 @@ Here you will find support material from the workshop we did that covers:
 
 
 ### Extension
-There is also another file in the Xcode Playground called Extension. It includes a second class and adds a bit more detail to functions as well as introducing you to 'for loops'. I have attached a folder describing 'for loops': ... . Have a read through and have a go at it - try not to use the completed folder too much ;)  
+There is also another file in the Xcode Playground called Extension. It includes a second class and adds a bit more detail to functions as well as introducing you to 'for loops'. I have attached a folder describing 'for loops': ... . Have a read through and have a go. 
 
 There is also similar documentation for all this in the General Syntax folder: 
 
