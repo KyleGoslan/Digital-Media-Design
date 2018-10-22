@@ -15,3 +15,5 @@ All apps come with an Info.plist file. This file contains some settings and othe
 
 Privacy - Location Always and When In Use Usage Description
 Privacy - Location When In Use Usage Description
+
+You must provide an approprite description for each of these as well - this is the message the user will see when they are asked to grant permission for your app to use their location. 
