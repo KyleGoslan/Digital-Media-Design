@@ -66,6 +66,6 @@ There are a lot of methods that you can optionally implement in the above code b
 
 ```swift
 func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
-  //print(locations.last!)
+  print(locations.last!)
 }
 ```
