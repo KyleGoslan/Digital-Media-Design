@@ -52,5 +52,3 @@ class SecondViewController: UIViewController, UINavigationControllerDelegate, UI
     }
     
 }
-
-

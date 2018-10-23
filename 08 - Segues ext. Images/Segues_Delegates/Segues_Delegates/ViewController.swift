@@ -3,7 +3,6 @@ import UIKit
 
 class ViewController: UIViewController, SendDelegate {
 
-  @IBOutlet var newMessage: UILabel!
   @IBOutlet weak var newImage: UIImageView!  
   
   func userPressedSend(data: UIImage) {
