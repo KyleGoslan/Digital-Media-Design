@@ -29,3 +29,26 @@ me.bio()
 
 
 **Note**: “Functions” and “Methods” are (for all intensive purposes) are the same thing. The difference being that a function becomes a method when it is contained within a class. They are written and perform in exactly the same way. 
+
+
+## Extension: For-In Loops
+
+It allows you to control the flow of your project. 
+
+A 'for loop' creates a loop. It continuously goes over a list or array (or any other sequence). 
+
+It uses two key words: 
++ for 
++ in 
+
+```swift
+
+for item in items {
+// doSomething
+}
+
+```
+
+A blank for loop looks like this ^
+
+
