@@ -28,7 +28,7 @@ At the top of the file you will need to add:
 import CoreLocation
 ```
 
-> Note
+> **Note**
 If you are using maps and import `MapKit` then there is no need to also import CoreLocation as it is contained within MapKit. 
 
 Almost all the key concepts about deling with user location takes place though a `CLLocationManager` object. This must be created as a property of the class:
@@ -66,6 +66,6 @@ There are a lot of methods that you can optionally implement in the above code b
 
 ```swift
 func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
-  //print(locations.last!)
+  print(locations.last!)
 }
 ```
