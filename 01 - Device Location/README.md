@@ -13,7 +13,7 @@ There are two parts to this process:
 
 All apps come with an Info.plist file. This file contains some settings and other bits of information about your app. There are **two** additions you need to make in this file:
 
-Privacy - Location Always and When In Use Usage Description
-Privacy - Location When In Use Usage Description
+- Privacy - Location Always and When In Use Usage Description
+- Privacy - Location When In Use Usage Description
 
 You must provide an approprite description for each of these as well - this is the message the user will see when they are asked to grant permission for your app to use their location. 
