@@ -4,7 +4,6 @@ As you would expect, you can add markers or pins on to maps. In iOS and MapKit, 
 
 Mapkit makes this easy to do by conforming any object to the `MKAnnotation` protocol.  Create a new file and replace all the contents with the following:
 
-
 ```swift
 import MapKit
 
@@ -12,6 +11,7 @@ class CustomAnnotation: NSObject, MKAnnotation {
 
 }
 ```
+
 >Note:
 At this point you will have an error.
 
@@ -23,7 +23,9 @@ Go and add this property to the class now. We'll alos add a title property which
 var coordinate: CLLocationCoordinate2D
 var title: String?
 ```
+
 Lets create an initializer to setup these properties as well. Underneath where you declared the properies at the following:
+
 
 ```swift 
 init(coordinate: CLLocationCoordinate2D, title: String) {
@@ -44,5 +46,3 @@ Assuming you have an `IBOutlet` to a map view (the click and dragging from your 
   //Now add it to the map view.
   mapView.addAnnotation(someAnnotation)
 ```
-
-
