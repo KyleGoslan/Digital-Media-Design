@@ -12,7 +12,7 @@ class CustomAnnotation: NSObject, MKAnnotation {
 }
 ```
 
->Note:
+>**Note:**
 At this point you will have an error.
 
 This states that our `CustomAnnotation` class can be used as an MKAnnotation. However in order for this class to conform to this protocol, it has to have one property called coordinate, which is of type `CLLocationCoordinate2D`. This makes logical sense, in order something to be displayed at a point on a map...it needs a coordinate. 
