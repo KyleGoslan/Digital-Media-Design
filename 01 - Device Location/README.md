@@ -69,3 +69,7 @@ func locationManager(_ manager: CLLocationManager, didUpdateLocations locations:
   print(locations.last!)
 }
 ```
+
+### Screencast
+
+There is a screencast covering this topic available [here](http://kylegoslan.co.uk/location-screencast/).
