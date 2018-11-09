@@ -6,4 +6,6 @@ They can seem confusing at first, but once you've set up a few, they'll become r
 
 You **must** adopt the `UITableViewDataSource` protocol. As the name suggest this is responsible for providing the table view with the data it is going to display. All the other delegate methods in the `UITableViewDelegate` protocol are optional.  
 
+> If you need to refresh what delegates are and hwo they work, go and read the notes on them [here](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/05%20-%20Delegates)
+
 ![Image](Resources/table-views-01.png)
