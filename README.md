@@ -8,7 +8,7 @@ Here you will find support material for the content delivered in the workshops. 
 + [00 - General Syntax](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/00%20-%20General%20Syntax)
 + [01 - Fundamentals](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/01%20-%20Fundamentals)
 + [02 - Device Location](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/02%20-%20Device%20Location)
-+ [03 - Map Kit](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/03%20-%20MapKit)
++ [03 - Map Kit](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/03%20-%20Map%20Kit)
 + [04 - Segues](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/04%20-%20Segues)
 + [05 - Delegates](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/05%20-%20Delegates)
 + [06 - Image Picker](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/06%20-%20Image%20Picker)
