@@ -18,7 +18,7 @@ Many objects will have an optional `delegate` property you'll need to set. A lot
 
 At this point you'll get this error:
 
->> Cannot assign value of type 'ViewController' to type 'CLLocationManagerDelegate?'
+> Cannot assign value of type 'ViewController' to type 'CLLocationManagerDelegate?'
 
 
 At this point, this is expected ("ViewController" and "CLLocationManagerDelegate" may differ depending on what you're setting the delegate as and the type of delegate you're setting, but the principle is the same). In simple terms, this error is saying "The ViewController class isnt currently capable of being a CLLocationManager delegate". 
