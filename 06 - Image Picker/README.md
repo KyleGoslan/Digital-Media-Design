@@ -1,4 +1,4 @@
-## Digital Media Design
+## Image Picker
 
 ### Notes
 
@@ -12,7 +12,6 @@ Here you will find support material for the content delivered in the workshops. 
 + [04 - Segues](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/04%20-%20Segues)
 + [05 - Delegates](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/05%20-%20Delegates)
 + [06 - Image Picker](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/06%20-%20Image%20Picker)
-+ [07 - TableViews](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/06%20-%20TableViews)
 
 
 ### Tips
