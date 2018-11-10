@@ -27,11 +27,10 @@ At the bottom of your view controller file (outside everything else) add the fol
 
 ```swift
 extension ViewController: UITableViewDataSource {
-  
+
 }
 
 extension ViewController: CLLocationManagerDelegate {
 
 }
 ```
-
