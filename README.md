@@ -18,6 +18,9 @@ Here you will find support material for the content delivered in the workshops. 
 ### Tips
 + [Tips](https://github.com/KyleGoslan/Digital-Media-Design/blob/master/Tips.md) 
 
+### Common Errors
++ [Common Errors](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/Common%20Errors) 
+
 ### Why GitHub?
 + It gets you used to interacting with GitHub.
 + It makes it easy to correct errors. 
