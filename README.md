@@ -13,6 +13,8 @@ Here you will find support material for the content delivered in the workshops. 
 + [05 - Delegates](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/05%20-%20Delegates)
 + [06 - Image Picker](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/06%20-%20Image%20Picker)
 + [07 - TableViews](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/07%20-%20TableViews)
++ [08 - CocoaPods](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/08%20-%20CocoaPods)
++ [09 - Firebase](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/09%20-%20Firebase)
 
 
 ### Tips
