@@ -1,6 +1,4 @@
- ## Protocol & Delegates
- 
- ### Protocol:
+ ## Protocol
  
  A protocol is written in a very similar way to a class - you use the key word protocol followed by the name of your protocol (with an uppercase): 
 
@@ -22,19 +20,4 @@ class ViewController: UIViewController, SendDelegate {
 
 }
 ```
-
-
-### Delegates: 
-
-Like the name suggests delegates are use to distribute or delegate some of its responsibilites to other areas of your code. A delegate can be used to respond to or retrieve data. In our project we used it to retrieve new data from the TextField and display it in the 'newMessage' label. 
-
-
-```swift
-
-func userPressedSend(data: String) {
-    newMessage.text = data
-}
-
-}
-
 
