@@ -23,6 +23,8 @@ tableView.dataSource = self
 tableView.delegate = self
 ```
 
+### Conforming To Data Source & Delegate
+
 At the bottom of your view controller file (outside everything else) add the following: 
 
 ```swift
@@ -31,6 +33,26 @@ extension ViewController: UITableViewDataSource {
 }
 
 extension ViewController: CLLocationManagerDelegate {
+
+}
+```
+
+### Setting Up The Data Source
+
+The data source protocole **requires** two methods to be implemnted, one to let the table view kno how many rows it contains, and one to configure the table view cell ready to be displayed. 
+
+```swift 
+extension ViewController: UITableViewDataSource {
+
+  func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    return 1
+  }
+
+  func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
+    cell.textLabel?.text = friendForCell.name
+    return cell
+  }
 
 }
 ```
