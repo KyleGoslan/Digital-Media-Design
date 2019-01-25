@@ -16,6 +16,9 @@ Here you will find support material for the content delivered in the workshops. 
 + [08 - CocoaPods](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/08%20-%20CocoaPods)
 + [09 - Firebase](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/09%20-%20Firebase)
 
+### Notes
+
++ [Notes](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/Notes)
 
 ### Tips
 + [Tips](https://github.com/KyleGoslan/Digital-Media-Design/blob/master/Tips.md) 
