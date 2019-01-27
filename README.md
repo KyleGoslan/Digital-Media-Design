@@ -1,8 +1,6 @@
 ## Digital Media Design
 
-### Notes
-
-Here you will find support material for the content delivered in the workshops. This will be updated regularly as you progress through the unit.
+Here you will find support material for the content delivered in the workshops.
 
 ### Contents
 + [00 - General Syntax](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/00%20-%20General%20Syntax)
@@ -17,6 +15,8 @@ Here you will find support material for the content delivered in the workshops. 
 + [09 - Firebase](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/09%20-%20Firebase)
 
 ### Notes
+
+Each workshop you will be expected to keep notes on some of the key topics covered in the session. These bits of information will make up the cornerstone of your knowlege in order to work effectively in this subject area. **(You will be shown how to keep your notes in a Gihub repo like this in your second workshop)**
 
 + [Notes](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/Notes)
 
