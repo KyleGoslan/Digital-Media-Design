@@ -1,4 +1,6 @@
-## Annotations
+## MapView + Annotations
+
+MapKit is used to embed a MapView into your project.  If you don't import the framework at the top of each file you want to use maps in, any MK command will error as 'unrecognised' - (MK = MapKit).
 
 As you would expect, you can add markers or pins on to maps. In iOS and MapKit, these are called `MKAnnotations`. By default you can add `MKPinAnnotations`, but a common scenario is to want to add your own custom annotations. 
 

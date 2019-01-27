@@ -4,7 +4,6 @@
 
 Here you will find support material from the workshop we did that covers: 
 + MapKit
-+ Storyboard objects/setup 
 
 ### Tips
 + Add constraints to all the objects you put in your view controller. 
