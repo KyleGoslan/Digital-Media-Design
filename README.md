@@ -16,7 +16,7 @@ Here you will find support material for the content delivered in the workshops.
 
 ### Notes
 
-Each workshop you will be expected to keep notes on some of the key topics covered in the session. These bits of information will make up the cornerstone of your knowlege in order to work effectibly in this domain.   
+Each workshop you will be expected to keep notes on some of the key topics covered in the session. These bits of information will make up the cornerstone of your knowlege in order to work effectively in this subject area. **(You will be shown how to keep your notes in a Gihub repo like this in your second workshop)**
 
 + [Notes](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/Notes)
 
