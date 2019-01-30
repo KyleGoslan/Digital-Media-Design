@@ -1,20 +1,15 @@
  ## Loops
 
-A loop allows you to control the flow of your project by descibing repetitive processes. This can be used with a set number of steps or it can be unknown. 
+A loop allows you to control the flow of your project. It goes over a list or array of items. The items in the array can be: numbers (Int), dictionaries or characters in a String.
 
-A 'for loop' creates a loop. It continuously goes over a list or array (or any other sequence). 
-
-It uses two key words: 
-+ for 
-+ in 
-
+For example: 
++ Initialize the Array
 ```swift
-
-for item in items {
-// doSomething
-}
-
+var names = ["Grace", "Kyle", "Amy", "John"]
 ```
-A blank for loop looks like this ^
 
-
++ Iterate through the array
+```for name in names {
+print("Hello, \(name)!")
+}
+```
