@@ -5,6 +5,8 @@ Each workshop you should take notes on things youre introduced to. A bullet list
 + [Workshop 01](https://github.com/KyleGoslan/Digital-Media-Design/blob/master/Notes/01.md)
 + [Workshop 02](https://github.com/KyleGoslan/Digital-Media-Design/blob/master/Notes/02.md)
 + [Workshop 03](https://github.com/KyleGoslan/Digital-Media-Design/blob/master/Notes/03.md)
++ [Workshop 04](https://github.com/KyleGoslan/Digital-Media-Design/blob/master/Notes/04.md)
++ [Workshop 05](https://github.com/KyleGoslan/Digital-Media-Design/blob/master/Notes/05.md)
 
 #### Markdown Cheatsheet
 + [Markdown Cheatsheet](https://guides.github.com/features/mastering-markdown/)
