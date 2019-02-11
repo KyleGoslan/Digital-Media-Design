@@ -48,3 +48,21 @@ Assuming you have an `IBOutlet` to a map view (the click and dragging from your 
   //Now add it to the map view.
   mapView.addAnnotation(someAnnotation)
 ```
+
+##Finished Class
+
+```swift
+import MapKit
+
+class CustomAnnotation: NSObject, MKAnnotation {
+
+var coordinate: CLLocationCoordinate2D
+var title: String?
+
+init(coordinate: CLLocationCoordinate2D, title: String) {
+self.coordinate = coordinate
+self.title = title
+}
+
+}
+```
