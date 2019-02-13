@@ -49,7 +49,7 @@ Assuming you have an `IBOutlet` to a map view (the click and dragging from your 
   mapView.addAnnotation(someAnnotation)
 ```
 
-##Finished Class
+## Finished Class
 
 ```swift
 import MapKit
