@@ -22,6 +22,6 @@ The location manager will deliver the notificaiton about entering or leaving a r
 
 ```swift 
 func locationManager(_ manager: CLLocationManager, didEnterRegion region: CLRegion) {
-print("Entered: \(region.identifier)")
+  print("Entered: \(region.identifier)")
 }
 ```
