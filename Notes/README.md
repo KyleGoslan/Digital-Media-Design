@@ -1,6 +1,8 @@
-## Notes
+## PROJECT JOURNAL
 
-Each workshop you should take notes on things youre introduced to. A bullet list of things you should know in each session can be found below. If any of the points are unclear, it is up to you to ask questions for clarification....
+To help your learning, each week you should be taking notes and developing your skills. To help you, here you can find a a starting point of things covered in your teaching sessions that week. 
+
+Note: These topics outlines here are in no way comprehensive of everything you have been taught - but a minimum. Elaborate on them and put anything here you might find useful. These are your notes to refer back to throughout the unit. 
 
 + [Week 01](https://github.com/KyleGoslan/Digital-Media-Design/blob/master/Notes/01.md)
 + [Week 02](https://github.com/KyleGoslan/Digital-Media-Design/blob/master/Notes/02.md)
