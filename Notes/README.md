@@ -1,4 +1,4 @@
-## PROJECT JOURNAL
+## Project Journal
 
 To help your learning, each week you should be taking notes and developing your skills. To help you, here you can find a a starting point of things covered in your teaching sessions that week. 
 

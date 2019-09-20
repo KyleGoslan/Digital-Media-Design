@@ -14,11 +14,13 @@ Here you will find support material for the content delivered in the workshops.
 + [08 - Firebase](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/08%20-%20Firebase)
 + [09 - Table Views](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/09%20-%20Table%20Views)
 
-### Notes
+### Project Journal
 
-Each workshop you will be expected to keep notes on some of the key topics covered in the session. These bits of information will make up the cornerstone of your knowlege in order to work effectively in this subject area. **(You will be shown how to keep your notes in a Gihub repo like this in your second workshop)**
+Each week you will be expected to keep notes on some of the key topics covered in your taught sessions. These notes should be updated weekly and stored on GitHub.
 
-+ [Notes](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/Notes)
+**(You will be shown how to keep your notes in a Gihub repo like this in your second workshop on week 1 of teaching)**
+
++ [Project Journal Appendix](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/Notes)
 
 ### Tips
 + [Tips](https://github.com/KyleGoslan/Digital-Media-Design/blob/master/Tips.md) 
