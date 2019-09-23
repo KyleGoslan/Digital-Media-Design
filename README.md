@@ -3,16 +3,24 @@
 Here you will find support material for the content delivered in the workshops.
 
 ### Contents
-+ [00 - General Syntax](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/00%20-%20General%20Syntax)
-+ [01 - Hi-Lo Game](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/01%20-%20Hi-Lo%20Game)
-+ [02 - Fundamentals](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/02%20-%20Fundamentals)
-+ [03 - Device Location](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/03%20-%20Device%20Location)
-+ [04 - Map Kit](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/04%20-%20Map%20Kit)
-+ [05 - Segues](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/05%20-%20Segues)
-+ [06 - Delegates](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/06%20-%20Delegates)
-+ [07 - Regions](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/07%20-%20Regions)
-+ [08 - Firebase](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/08%20-%20Firebase)
-+ [09 - Table Views](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/09%20-%20Table%20Views)
++ [00-General-Syntax](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/00-GeneralSyntax)
++ [01 - Hi-Lo Game](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/01-HiLoGame)
++ [02 - Fundamentals](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/02-Fundamentals)
++ [03 - Functions](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/03-Functions)
++ [04 - Control Flow](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/04-ControlFlow)
++ [05 - View Controllers/Segues](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/05-ViewControllers)
++ [06 - UI Elements](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/06-UIElements)
++ [07 - Using the Camera/Images](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/07-CameraImages)
++ [08 - Fixing Errors](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/08-FixingErrors)
++ [09 - Delegates](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/09-Delegates)
++ [10 - Device Location](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/10-DeviceLocation)
++ [11 - Map Kit](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/11-MapKit)
++ [12 - Regions](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/12-Regions)
++ [13 - Firebase](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/13-Firebase)
++ [14 - User Login](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/14-UserLogin)
++ [15 - User Signup](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/15-UserSignup)
++ [16 - ML Image Labeling](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/16-ImageLabeling)
++ [17 - Collection Views](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/17-CollectionViews)
 
 ### Project Journal
 
@@ -26,7 +34,7 @@ Each week you will be expected to keep notes on some of the key topics covered i
 + [Tips](https://github.com/KyleGoslan/Digital-Media-Design/blob/master/Tips.md) 
 
 ### Common Errors
-+ [Common Errors](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/Common%20Errors) 
++ [Common Errors](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/CommonErrors) 
 
 ### Why GitHub?
 + It gets you used to interacting with GitHub.
