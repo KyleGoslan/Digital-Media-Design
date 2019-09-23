@@ -1,4 +1,4 @@
-## 06 - Segues
+## 06 - View Controller & Segues
 
 A segue is used to pass data from one view to another and then present the new View Controller. Segues control the naviagation or flow of your project. When a segue is triggered there is a 'visual transition' or animation from one view to the next. 
 
