@@ -9,17 +9,21 @@ A visual representation of your segue will appear as an arrow - selecting this a
 
 ### Programming a Segue: 
 A method can be used to set up a segue from one view to another. By setting a Segue Identifier in your storyboard it can be used  to control how and when the segue is used. The two main ways we looked at this was with these functions: 
+
 + Prepare:
+
 ``` swift
 override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-if segue.identifier == "newVC"
-{ viewController = segue.destination as! NewViewController }
+	if segue.identifier == "newVC" { 
+		viewController = segue.destination as! NewViewController 
+	}
 }
 ```
+
 + Perform: 
+
 ```swift
 performSegue(withIdentifier: "newVC", sender: nil)
-}
 ```
 
 ### Embedding a Navigation Controller: 

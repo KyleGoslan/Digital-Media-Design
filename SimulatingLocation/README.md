@@ -1,4 +1,4 @@
-## An Example GPX File
+## Simulating Location
 
 This is an example GPX file used to simulate a custom user movement. You will need to use these when testing on a simulator. 
 
