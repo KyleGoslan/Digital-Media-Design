@@ -20,7 +20,8 @@ Here you will find support material for the content delivered in the workshops.
 + [14 - User Login](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/14-UserLogin)
 + [15 - User Signup](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/15-UserSignup)
 + [16 - ML Image Labeling](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/16-ImageLabeling)
-+ [17 - Collection Views](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/17-CollectionViews)
++ [17 - Table Views](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/17-TebleViews)
++ [18 - Custom Cells](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/17-CustomCells)
 
 ### Project Journal
 
