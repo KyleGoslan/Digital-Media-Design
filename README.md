@@ -35,7 +35,13 @@ Each week you will be expected to keep notes on some of the key topics covered i
 + [Tips](https://github.com/KyleGoslan/Digital-Media-Design/blob/master/Tips.md) 
 
 ### Common Errors
-+ [Common Errors](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/CommonErrors) 
++ [Common Errors](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/CommonErrors)
+
+### Simulating Location
+
+When testing location functionality on the simulator, you will likely need to simulate a location of a user to test functionality in your application.
+
++ [Simulating Location](https://github.com/KyleGoslan/Digital-Media-Design/blob/master/SimulatingLocation) 
 
 ### Why GitHub?
 + It gets you used to interacting with GitHub.
