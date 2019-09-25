@@ -1,1 +1,1 @@
-## 16 - Image Labeling
+## 16 - Firebase Image Labeling
