@@ -53,9 +53,6 @@ Uses an arrary (list). It looks for a specific value within an specific array. F
         for name in names {
             print("Hello, \(name)!")
         }
-        // Hello, Anna!
-        // Hello, Alex!
-        // Hello, Brian!
-        // Hello, Jack!
+    
 
     ```
