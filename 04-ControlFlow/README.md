@@ -17,9 +17,9 @@ This provides an alternative action option for exmaple:
     ```swift
 
         if thereIsSomethingHere {
-            doThis 
+            YES doThis 
             } else {
-            doSomethingDifferent 
+            NO doSomethingDifferent 
             }  
 
         }
