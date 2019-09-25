@@ -10,7 +10,7 @@ By querying what state the programme is at there can be varied outcomes. There a
 Will probably be the most common of all the control flow commands you will use. You simply ask 'if' a condition has been met or happened yet.  
 
 ### else
-An 'else' most commonoly follows an 'if' 
+An 'else' most commonoly follows an 'if'. In the diagram above the else is the lines that break up the YES and NO response. 
 
 This provides an alternative action option for exmaple:
 
