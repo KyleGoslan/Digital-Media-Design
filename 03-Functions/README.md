@@ -107,9 +107,46 @@ printGreeting(name: "Kate")
 
 Will print...
 
-	>Hello, my name is Sam	
-	>Hello, my name is Paul	
-	>Hello, my name is Kate	
+>Hello, my name is Sam	
+>Hello, my name is Paul	
+>Hello, my name is Kate	
+
+
+### Returning Values
+
+As well as arguments, functions can also return values. To return a value from a function you must explicitly state what value type you are going to return.
+
+```swift
+func myFunction() -> String {
+	return "Hello World"
+}
+```
+
+Before the opening curly brace of the function body there is an arrow and a type **-> String**. In the example above the function is explicitly expected to return a string value. This is expressed with the **return** keyword followed by the value. 
+
+You can assign the value of the return value to a variable or constant value. Following on from the example above:
+
+```swift
+let message = myFunction()
+```
+In this case the constant **message** will be a string - in this example "Hello World"
+
+##Putting It All Together
+
+```swift
+
+func addNumbers(firstVaule: Int, secondValue: Int) -> Int {
+	return firstValue + secondValue	
+}
+
+let total = addNumbers(firstVaule: 7, secondValue: 4)
+
+```
+
+The value of **total** will be 11. 
+
+
+
 
 
 
