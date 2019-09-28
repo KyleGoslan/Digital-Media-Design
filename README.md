@@ -1,6 +1,8 @@
 ## Digital Media Design
 
-Here you will find support material for the content delivered in the workshops.
+Here you will find support material for the content delivered in the workshops. 
+
+### You must work through the examples...multiple times. Scanning over them will get you nowhere. Practice! 
 
 ### Contents
 + [00-General-Syntax](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/00-GeneralSyntax)

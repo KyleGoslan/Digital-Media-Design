@@ -1,7 +1,44 @@
 ## 06 - View Controllers & Segues
 
-A segue is used to pass data from one view to another and then present the new View Controller. Segues control the naviagation or flow of your project. When a segue is triggered there is a 'visual transition' or animation from one view to the next. 
+### View Controllers
 
+View Controllers are really at the centre of every project you'll work on. While you're new to iOS development most of the code you write will be in one of your view controller sub-classes. 
+
+At the most basic level, think of your view controllers as responsible for controlling a "screen" of your app. 
+
+### View Controller Life Cycle
+
+View controllers have several points in their "life" in which we can perform tasks.
+
+#### viewDidLoad
+
+This is likely where you'll start doing a lot of the work:
+
+```swift
+
+func viewDidLoad() {
+	super.viewDidLoad()
+}
+
+```
+
+> **Tip: Name your view controllers appropriatly. "ViewController" isn't a very useful name. If it's responsible for displaying a map, "MapViewController" is a far more descriptive name.
+
+There is loads of information on view controllers here:
+
+[Apple - Work With View Controllers](https://developer.apple.com/library/archive/referencelibrary/GettingStarted/DevelopiOSAppsSwift/WorkWithViewControllers.html)
+
+
+### Linking View Controller Files to Your Storyboard
+
+When you create a new View Controller sub-class 
+
+
+
+### Segues
+
+A segue is used to pass data from one view to another and then present the new View Controller. Segues control the navigation or flow of your project. When a segue is triggered there is a 'visual transition' or animation from one view to the next. 
+	
 ### Storyboard Segue:
 Select an item in your initial view controller, hold down ctrl, then drag and drop to the desired destination and let go - select 'show'. 
 
