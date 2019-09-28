@@ -12,7 +12,13 @@ Are your UIElements connected to your code in the right way (action/outlet)
 Have you declared the variable you want to use in a func or a loop
 
 ### Libraries
-Have you included (imported) all the libraries you intend on using (hint: usuing location you'll need a MapKit)
+Have you included (imported) all the libraries you intend on using (hint: using location you'll need a MapKit)
+
+
+There is a broken project in the [Completed Demos](https://github.com/KyleGoslan/Digital-Media-Design/blob/master/02-Fundamentals/Functions.md) try and find all the errors. 
+
+REMEMBER - even though you might be seeing 50+ errors DONT PANIC! The majority of these will be solved with really quick fixes such as a class not being closed with a bracket. 
+
 
 
 

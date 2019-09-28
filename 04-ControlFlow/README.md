@@ -4,13 +4,13 @@ This is the order in which you command different actions/fucntions to happen wit
 
 ![alt text](https://blog.knockknockstuff.com/wp-content/uploads/2013/07/Dilemmas_Social_ONLINE_vert31.jpg "Logo Title Text 1")
 
-By querying what state the programme is at there can be varied outcomes. There are different ways of controlling the flow of your project. 
+By querying what state the programme is at - there can be multiple outcomes. There are different ways of controlling the flow of your project. 
 
 ### if
 Will probably be the most common of all the control flow commands you will use. You simply ask 'if' a condition has been met or happened yet.  
 
 ### else
-An 'else' most commonoly follows an 'if'. In the diagram above the else is the lines that break up the YES and NO response. 
+An 'else' most commonly follows an 'if'. In the diagram above the 'else' is the lines that break up the YES and NO response. 
 
 This provides an alternative action option for exmaple:
 
@@ -26,7 +26,7 @@ This provides an alternative action option for exmaple:
     ```    
 
 ### guard 
-A gaurd statement is a more secure version of an if statement becuase
+A gaurd statement is a more secure version of an if statement becuase:
 1. It has to be true 
 2. It has to be followed by else 
 
@@ -42,14 +42,15 @@ Simply asking if a constant exists
 More secure way of asking if a constant is true - as with a guard - it MUST BE TRUE
 
 ## Loops
-Uses an array (list) of items and the outcome has to use a value from that list. The list can be of any type for example: dictionaries, strings, intagers
+Uses an array (list) of items. The command then filters through the list and the outcome is a value from that list. The list can be of any type for example: dictionaries, strings, intagers etc. 
 
 ### For In 
-Uses an arrary (list). It looks for a specific value within an specific array. For example: 
+Loops through an arrary (list). It looks for a specific value within an specific array. For example: 
 
     ```swift 
 
         let names = ["Anna", "Alex", "Brian", "Jack"]
+        
         for name in names {
             print("Hello, \(name)!")
         }
