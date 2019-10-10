@@ -5,6 +5,8 @@ Note: These topics outlines here are in no way comprehensive of everything you h
 + [Week 01](https://github.com/KyleGoslan/Digital-Media-Design/blob/master/Notes/01.md)
 + [Week 02](https://github.com/KyleGoslan/Digital-Media-Design/blob/master/Notes/02.md)
 + [Week 03](https://github.com/KyleGoslan/Digital-Media-Design/blob/master/Notes/03.md)
++ [Week 04](https://github.com/KyleGoslan/Digital-Media-Design/blob/master/Notes/04.md)
+
 
 #### Markdown Cheatsheet
 + [Markdown Cheatsheet](https://guides.github.com/features/mastering-markdown/)
