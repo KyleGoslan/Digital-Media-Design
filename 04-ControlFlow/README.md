@@ -26,7 +26,7 @@ This provides an alternative action option for exmaple:
     ```    
 
 ### guard 
-A gaurd statement is a more secure version of an if statement becuase:
+Guard statements are used to unwrap optionals and they provide alternate solution for conditional unwrapping. So it is a more secure version of an if statement becuase:
 1. It has to be true 
 2. It has to be followed by else 
 
@@ -49,7 +49,7 @@ Loops through an arrary (list). It looks for a specific value within an specific
 
     ```swift 
 
-        let names = ["Anna", "Alex", "Brian", "Jack"]
+        let names = ["Grace", "Kyle", "Ellen", "John"]
         
         for name in names {
             print("Hello, \(name)!")
