@@ -10,7 +10,7 @@ Here you will find support material for the content delivered in the workshops.
 + [02 - Fundamentals](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/02-Fundamentals)
 + [03 - Functions](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/03-Functions)
 + [04 - Control Flow](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/04-ControlFlow)
-+ [05 - View Controllers/Segues](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/05-ViewControllers)
++ [05 - View Controllers/Segues](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/05-ViewControllesSegues)
 + [06 - UI Elements](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/06-UIElements)
 + [07 - Using the Camera/Images](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/07-CameraImages)
 + [08 - Fixing Errors](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/08-FixingErrors)
