@@ -1,0 +1,1 @@
+Through referring to specific blocks-of-code/line-numbers – describe three sections of your app, which play a significant role in its operation.
