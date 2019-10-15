@@ -1,6 +1,6 @@
 ## 06 - UI Elements 
 
-Can be slit into two catagories: 
+Can be split into two catagories: 
 + Action - creates a function that performs an action or change when tapped
 + Outlet - is a container (something else controlls the change that happens to the view)
 
@@ -62,18 +62,12 @@ Allows you to place images on your view:
 ### Local Image 
 Storage for imagers on device are kept in the assets folder. These images are usually used for design purposes. For example you might want an image background. 
 
-### Access Photo Library/Camera
-
-Another use which you will see more of in your Camera/Images workshop is getting access to the devices camera or photolibrary. Importing an image into the image view. 
-
-An **important** point to remeber with the image view is that it is just the container for an image. You can control the location and the size of the image by manipulating the UIImageView but the data/pixels that make up the image inside can be swapped out and removed. 
-
-This is particuarly useful for memory storage. 
-
-### UISwitch
+### UISegmentedController
 A switch can be used to toggle between two catagories. 
 
-### UITextField
+### Navigation Controller
+
+
 
 
 
