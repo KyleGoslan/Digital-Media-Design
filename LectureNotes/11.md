@@ -1,0 +1,7 @@
+Which aspects of Digital Media Design have you enjoyed studying most?
+
+Which aspects of Digital Media Design have you found most challenging?
+
+What one piece of advice would you like to be able to give to yourself as someone beginning this unit?
+
+What will you do to ensure that you continue building-on what you’ve learnt studying Digital Media Design?
