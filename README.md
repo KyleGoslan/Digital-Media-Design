@@ -37,9 +37,6 @@ Each week you will be expected to keep notes on some of the key topics covered i
 
 + [Lecture Notes](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/LectureNotes)
 
-### Tips
-+ [Tips](https://github.com/KyleGoslan/Digital-Media-Design/blob/master/Tips.md) 
-
 ### Common Errors
 + [Common Errors](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/CommonErrors)
 
