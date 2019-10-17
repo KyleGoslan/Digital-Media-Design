@@ -1,11 +1,8 @@
 ## 06 - UI Elements 
 
 Can be split into two catagories: 
-+ Action - creates a function that performs an action or change when tapped
++ Action - creates a function that performs an action when tapped
 + Outlet - is a container (something else controlls the change that happens to the view)
-
-### UIView
-Controls the shape and size of the window View you see. 
 
 ### UILabel
 Is a text container. 
@@ -16,12 +13,12 @@ Is a text container.
 
 Either you can set it from the start and use it as a title or description for example. 
 
-Or you can use a function to manipluate the text in the label The fundamentals workshop demo. We set a set label, each time we pressed the button that function changed the text increased your age by one. 
+Or you can use a function to manipluate the text in the label (you can look at the fundamentals workshop demo for exmaples of this). 
 
 ### UIButton
-A button is a command that you can control when it is fired. 
+A button is an action that you can control when it is fired. 
 
-It is an IBAction, when you connect it from your story board to your View Controller it will autoamtically create a function for you: 
+Because it is 'doing' something it is an IBAction which will create a function for you. Your understanding of how functions 'doSomething' should help with this: 
 
 ```swift
 
@@ -32,40 +29,48 @@ It is an IBAction, when you connect it from your story board to your View Contro
   }
   
   ```
-  
-Whatever you want the button to do you can write inside the function it created for you 
+Whatever action you want the button to take you can write inside the function it created for you. 
 
 ### UISlider
-A slider can be used to set a value in a more creative and interesting way for the user. Connect to your View Controller as an IBOutlet. 
+A slider can be used to set a value in a more creative and interesting way for the user. Connect to your View Controller as an Outlet AND an Action. 
 
-Easily customisable in the assistant editor: 
-+ set min/max vlaues 
-+ customise colours
-+ connect as an IBOutet  
-
-```
-
- @IBAction func didSlide(_ sender: Any) {
+The action is the motion of sliding the slider and flicking between values. 
+```@IBAction func didSlide(_ sender: Any) {
   }
   ```
-  ```
   
-    @IBOutlet weak var sliderValue: UISlider!
+The outlet is the final value created from the action of the slider.  
+```@IBOutlet weak var sliderValue: UISlider!
 ```
+
+Easily customisable in the assistant editor: 
++ set min/max values 
++ customise colours etc  
 
 
 ### UIImageView
-Allows you to place images on your view: 
-+ local image (store in assets folder)
-+ import from device photo library 
+Allows you to place images on your view. 
 
-### Local Image 
-Storage for imagers on device are kept in the assets folder. These images are usually used for design purposes. For example you might want an image background. 
+The image view is simply the container for your image not the image itself. This allows you to flick between images using the same frame/container. 
+
+Storage for images on device are kept in the assets folder. These images are usually used for design purposes. For example you might want an image background. (Accessing photolibrary and using pictures you take with camera will come later on. )
+
+You can access the images in the assets folder by using this snippet of code and calling the name of the image you want (REMEMBER it is case and space sensitive!)
+
+```    imageView.image = UIImage.init(named: "sky")
+```
 
 ### UISegmentedController
-A switch can be used to toggle between two catagories. 
+A switch can be used to toggle between two things.
+
+(You may want to revisit the If statements that we did last week to see how you can provide two options.)
 
 ### Navigation Controller
+DO NOT USE the one in the UIElements Library. You want to embed it within your View Controller. 
+
+Editor/Embed In/Navigation Controller
+
+Adding elements/icons into your nav bar can be done using the Bar Button Item in the UIElements Library. 
 
 
 
