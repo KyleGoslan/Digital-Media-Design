@@ -45,6 +45,22 @@ A good formatting rule is to always have your variable and constant at the top o
 Control Flow and UIElements Project:
 There is a broken project in the [Completed Demos](https://github.com/KyleGoslan/Digital-Media-Design/blob/master/02-Fundamentals/Functions.md) try and find all the errors. 
 
+### Functions mis spelt 
+
+### Unnamed Segues
+
+### Could not cast value of type ...
+
+### Unexpectidly found nil 
+
+### Change Target 
+
+
+
+
+
+
+
 
 <!--
 ### Libraries
