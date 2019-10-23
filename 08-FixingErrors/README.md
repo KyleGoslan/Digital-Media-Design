@@ -45,21 +45,46 @@ A good formatting rule is to always have your variable and constant at the top o
 Control Flow and UIElements Project:
 There is a broken project in the [Completed Demos](https://github.com/KyleGoslan/Digital-Media-Design/blob/master/02-Fundamentals/Functions.md) try and find all the errors. 
 
-### Functions mis spelt 
+### Functions spelt wrong
+Like most things in xcode functions are case sensitive and should be camel cased. When you try and call a function make sure that it is spelt EXACTLY THE SAME as the func ... you already created. 
 
 ### Unnamed Segues
+In the same way that classes and functions need to be named so do segues. It is very common to forget to label your segue within the Story Board. 
+
+Again Xcode is case and space sensitive so make sure whatever you labelled your segue in your View Controller with in the "..." is the same as the Segue Identifier on teh Story Board. 
+
+(feel free to revert back to your segues notes)
 
 ### Could not cast value of type ...
 
+REMEMBER whenever you see a : read IS OF TYPE. 
+
+We discussed casting types of values in the fundamentals workshop. 
+
+``` var name: String
+    var age: Int 
+    
+```
+ 
+So our name is of type characters and our age is of type number. If an error is thrown that says cannot "Could not cast value of type ..." go back and check that all your varibale types match up with the values you have attemented to get out of them. 
+
+(looks back at the fundamentals work shop may be useful for this. )
+
 ### Unexpectidly found nil 
+This occurs when you are trying to cast a value and xcode cannot find where to put it. 
 
-### Change Target 
-
-
-
+There are several common errors that can throw this up. For example: if you are trying to get a label to display a sentence but there is no label connected to your story board you may see this - found nil error - because xcode found nothing to put your sentence in. 
 
 
+### Change Target
+The deployment target is the version of iOS that you are using. There are regular updates to iOS and Xcode so you need to make sure that they are compatibe. 
 
+If your version of xcode if higher that your version of iOS you will see this 'target' error. You need to go into the project setting and lower your delpoyment target so it is compatible with your version of iOS. 
+
+This will require a bit more digging around pages we dont use that often. 
+
+Try and find:  
+1. General > Deployment Info > Target
 
 
 <!--
@@ -67,10 +92,3 @@ There is a broken project in the [Completed Demos](https://github.com/KyleGoslan
 Have you included (imported) all the libraries you intend on using (hint: using location you'll need a MapKit)
 
 -->
-
-
-
-
-
-
-
