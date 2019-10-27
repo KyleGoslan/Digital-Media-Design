@@ -47,9 +47,10 @@ var delegate: SettingsViewControllerDelegate?
 We need to assign the `SettingsViewController`’s delegate property to this view controller. This is just like setting any other property (think back to the segue workshop). So this will happen in the `prepareForSegue` function.
 
 ```swift
-func prepare 
+override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
   let settingsViewController = segue.destination as! SettingsViewController 
   settingsViewController.delegate = self
+}
 ```
 
 Note: This will give you an error at this point. It’s fine, we just haven’t finished yet...
