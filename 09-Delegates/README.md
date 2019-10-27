@@ -1,37 +1,78 @@
-## 06 - Delegates
+## 09 - Delegates
 
-The "delegate pattern" or "delegation" is a common design pattern in may of the iOS frameoworks provided by Apple. 
+The “Delegate Pattern” or delegation is a common design pattern in iOS apps. Apple use this pattern in many of their iOS frameworks and libraries. 
 
-The dictionary definition of “delegate” is “to give a particular job, duty, right, etc. to someone else so that they do it for you.” The dictionary definition of “delegation” is “the act of empowering to act for another.”. Keeping that in mind will help you in understanding what delegation is in code. 
+You can build you own delegate pattern as well. This is one way that you can notify one object that something has happened in another object, that’s exactly what we’ll do for this demo. 
 
-Delegation is a design pattern that enables a class to hand off (delegate) some of its responsibilities to something else.
+**The scenario...** 
 
-You have already used this a lot. The `CLLocationManager` object used this design pattern to deliver information back to us about certain events happening - for example when there is new location data avalible the `CLLocationManager` will call its delegates `locationManager(_:didUpdateLocations:)` method.
+We’ll have a one “MainViewController” that presents another, a “SettingsViewController”. We’ll change the background color of the MainViewController from the SettingsViewController. In this example the MainViewController will be the delegate of the SettingsViewController. 
 
-### Setting Up A Delegate
+#### Creating a Protocol
 
-Many objects will have an optional `delegate` property you'll need to set. A lot of the time you'll be setting this property to `self`, which again, will often be one of your view controllers. Assuming you have created an instance of a `CLLocationManager` object called `locationManager`, you would set its delegate in teh `viewDidLoad` as follows:
-
-```swift 
-  locationManager.delegate = self
-```
-
-At this point you'll get this error:
-
-> Cannot assign value of type 'ViewController' to type 'CLLocationManagerDelegate?'
-
-
-At this point, this is expected ("ViewController" and "CLLocationManagerDelegate" may differ depending on what you're setting the delegate as and the type of delegate you're setting, but the principle is the same). In simple terms, this error is saying "The ViewController class isnt currently capable of being a CLLocationManager delegate". 
-
-In order for one object to be another objects delegate it must "confrom to that delegates protocol". This means it must be able to do what is being delegated to that object. 
-
-The best place to do this is in an extension of the class being set as the delegate, in this case the `ViewController` class. At the very bottom of the file (outside all other brackets), you would add the following: 
+The first part is deciding what the delegate object “must be able to do” on behalf of the object it’s delegating for. To do this we write a `protocol`. You can write this in a new file, or in this case I might write it at the top of my “SettingsViewController” file (below the imports). 
 
 ```swift
-extension ViewController: CLLocationManagerDelegate {
+protocol SettingsViewControllerDelegate {
+  //What must the delegating object be able to do?
+}
+```
+
+A protocol looks similar to writing a class, but with the word “protocol” replacing “class”. Here your write the functions that the delegate object must be able to do. You could think of this as writing a job advert. 
+
+The big difference here is that you do not write the body of the function (no curly braces) here.
+
+In our example we want our delegate to handle what to do when a user selects a new color. So we could write a function signature that looks like this:
+
+```swift
+func didSelect(color: UIColor) 
+```
+
+So our completed protocol looks like this:
+
+```swift
+protocol SettingsViewControllerDelegate {
+  func didSelect(color: UIColor)
+}
+```
+
+We now need to give our SettingsViewController a delegate property, these are unusually optional:
+
+```swift
+var delegate: SettingsViewControllerDelegate?
+```
+
+#### Off to the `MainViewController` to setup the delegate...
+
+We need to assign the `SettingsViewController`’s delegate property to this view controller. This is just like setting any other property (think back to the segue workshop). So this will happen in the `prepareForSegue` function.
+
+```swift
+func prepare 
+  let settingsViewController = segue.destination as! SettingsViewController 
+  settingsViewController.delegate = self
+```
+
+Note: This will give you an error at this point. It’s fine, we just haven’t finished yet...
+This warrior is because We haven’t said the the `MainViewController` can be a `SettingsViewControllerDelegate`. We’ll do this in a extension. At the bottom of the `MainViewController` file add the extension:
+
+```swift
+extension MainViewController: SettingsViewControllerDelegate {
 
 }
 ```
-This is essentially saying th the `ViewController` class is capable of being a `CLLocationManagerDelegate`. As all the delegate methods are optional, we dont actually have to implement any of them in this case.
 
-<!--### Optional vs Non-Optional Delegate Methods-->
+At this point the previous error will be fixed, but we’ll have a new “Does not conform to protocol...” error. That’s because we haven’t implemented the function that we said we would in the protocol. This is known as “conforming to the protocol”. The Fix-it Xcode offers will sort it, and we’ll use the passed color to set the background color:
+
+```swift
+extension MainViewController: SettingsViewControllerDelegate {
+  func didSelect(color: UIColor) {
+    view.backgroundColor = color
+  }
+}
+```
+
+The last step is to call the delegate method from the `SettingsViewController` at the relevant point in time. It will look like this (assuming `selectedColor` is a UIColor):
+
+```swift
+Delegate?.didSelect(color: selectedColor)
+```
