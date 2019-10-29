@@ -53,7 +53,7 @@ override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
 }
 ```
 
-Note: This will give you an error at this point. It’s fine, we just haven’t finished yet...
+>Note: This will give you an error at this point. It’s fine, we just haven’t finished yet...
 This warrior is because We haven’t said the the `MainViewController` can be a `SettingsViewControllerDelegate`. We’ll do this in a extension. At the bottom of the `MainViewController` file add the extension:
 
 ```swift
@@ -62,7 +62,7 @@ extension MainViewController: SettingsViewControllerDelegate {
 }
 ```
 
-At this point the previous error will be fixed, but we’ll have a new “Does not conform to protocol...” error. That’s because we haven’t implemented the function that we said we would in the protocol. This is known as “conforming to the protocol”. The Fix-it Xcode offers will sort it, and we’ll use the passed color to set the background color:
+>Note: At this point the previous error will be fixed, but we’ll have a new “Does not conform to protocol...” error. That’s because we haven’t implemented the function that we said we would in the protocol. This is known as “conforming to the protocol”. The Fix-it Xcode offers will sort it, and we’ll use the passed color to set the background color:
 
 ```swift
 extension MainViewController: SettingsViewControllerDelegate {
@@ -75,5 +75,5 @@ extension MainViewController: SettingsViewControllerDelegate {
 The last step is to call the delegate method from the `SettingsViewController` at the relevant point in time. It will look like this (assuming `selectedColor` is a UIColor):
 
 ```swift
-Delegate?.didSelect(color: selectedColor)
+delegate?.didSelect(color: selectedColor)
 ```
