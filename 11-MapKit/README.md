@@ -1,13 +1,24 @@
 ## 11 - Mapkit
-
 ### Notes
 
-Here you will find support material from the workshop we did that covers: 
-+ MapKit
+If you want to use maps in your project you need to import the MapKit framework. 
 
-### Tips
-+ Add constraints to all the objects you put in your view controller. 
-+ Check MapKit and CoreLocation are imported
-+ Remember to check your brackets - they should all have a pair. Remember you can use the double click on any bracket to check where its pair is.
-+ Check your spacing, the indentations on the project attached show how it should be. If you get into a good habit of spacing your project correctly it will make it a lot easier to read!  
-+ Check for typos and capital letters - remember it all needs to match.
+```swift
+import MapKit 
+```
+
+Note: Mapkit includes the CoreLocation library, so you can use all the CoreLocation "stuff" as well. 
+
+Map views work as you would expect right out the box, they are available as a view (`MKMapView`) in the object library. 
+
+### Adding and Annotation 
+
+The easiest way to add an annotation to the map is with an `MKPointAnnotation`:
+
+```swift 
+	let annoation = MKPointAnnotation()
+  annoation.coordinate = CLLocationCoordinate2D(latitude: 51.419014, longitude: -0.610961)
+  annoation.title = "Hello World"
+  mapView.addAnnotation(annoation)
+```
+
