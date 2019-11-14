@@ -1,10 +1,13 @@
 <?xml version="1.0"?>
 <gpx version="1.1" creator="Xcode">
   
-    <wpt lat="50.753019" lon="-1.930140"></wpt>
+    <wpt lat="50.741972" lon="-1.897156">
+      <time>2014-09-24T14:55:10Z</time>
+    </wpt>
     
-    <wpt lat="50.742553" lon="-1.892333"></wpt>
-    
-    <wpt lat="50.761153" lon="-1.874836"></wpt>
+    <wpt lat="50.715634" lon="-1.874866">
+      <time>2014-09-24T14:55:50Z</time>
+    </wpt>
+  
     
 </gpx>
