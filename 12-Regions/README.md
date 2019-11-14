@@ -6,7 +6,7 @@ The `CLLocationManager` object is responsible for delivering this information an
 
 ### Setting up Regions. 
 
-Setting up a region is taken care of by creating a `CLCircularRegion` object. This take in a centre coordinate, a radius (in meters) and an identifier. 
+Setting up a region is taken care of by creating a `CLCircularRegion` object. This takes in a centre coordinate, a radius (in meters) and an identifier (a name). 
 
 ```swift
 let myCoordinate = CLLocationCoordinate2D(latitude: 0, longitude: 0)
@@ -18,7 +18,7 @@ Once you've created a region you pass this to the `CLLocationManager` and ask it
 ```swift
 locationManager.startMonitoring(for: myRegion)
 ```
-The location manager will deliver the notificaiton about entering or leaving a region via its delegate methods, for example:
+The location manager will deliver the notification about entering or leaving a region via its delegate methods, for example:
 
 ```swift 
 func locationManager(_ manager: CLLocationManager, didEnterRegion region: CLRegion) {
