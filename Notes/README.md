@@ -9,6 +9,10 @@ Note: These topics outlines here are in no way comprehensive of everything you h
 + [Workshop 05](https://github.com/KyleGoslan/Digital-Media-Design/blob/master/Notes/05.md)
 + [workshop 06](https://github.com/KyleGoslan/Digital-Media-Design/blob/master/Notes/06.md)
 + [workshop 07](https://github.com/KyleGoslan/Digital-Media-Design/blob/master/Notes/07.md)
++ [workshop 09](https://github.com/KyleGoslan/Digital-Media-Design/blob/master/Notes/09.md)
++ [workshop 10](https://github.com/KyleGoslan/Digital-Media-Design/blob/master/Notes/10.md)
++ [workshop 11](https://github.com/KyleGoslan/Digital-Media-Design/blob/master/Notes/11.md)
++ [workshop 12](https://github.com/KyleGoslan/Digital-Media-Design/blob/master/Notes/12.md)
 
 #### Markdown Cheatsheet
 + [Markdown Cheatsheet](https://guides.github.com/features/mastering-markdown/)
