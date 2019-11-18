@@ -74,3 +74,25 @@ func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnota
 
   }
 ```
+
+### Useful Extension
+
+Create a new swift file in your project called `LocationExtensions` and add the following: 
+
+```swift 
+
+extension CLLocationCoordinate2D {
+  
+  var asLocation: CLLocation {
+    return CLLocation(latitude: latitude, longitude: longitude)
+  }
+  
+}
+
+```
+ Converting between CLLocationCoordinate2D and CLLocation objects is common, this enables all CLLocationCoordinate2D objects to have CLLocation property via `.asLocation`. 
+
+
+
+
+
