@@ -1,6 +1,6 @@
 ## 13 - Selecting Annotations 
 
-###Creating Custom Annotations 
+### Creating Custom Annotations 
 
 The annotations MapKit provides us are a useful starting point, but usually we'll want more informations associated with the markers we're displaying on the map. This is where we can create our own annotation sub class. There are lots of ways you could create your custom annotation for the map, but we'll base our off the `MKPointAnnotation` class that we've used already:
 
@@ -27,7 +27,7 @@ let annotation = MyAnnotation()
 
 Things will work just as before. 
 
-###Selecting Annotations
+### Selecting Annotations
 
 Selecting annotations is easy with the map views delegate. First set the maps delegate in a view controller: 
 
@@ -51,7 +51,7 @@ func mapView(_ mapView: MKMapView, didSelect view: MKAnnotationView) {
 }
 ```
 
-###Customising Annotation Views
+### Customising Annotation Views
 
 By default, the map view handles showing the annotations on the map, and we are given the default looking annotation. We can choose handle displaying this ourselves. This happens in the delegate method below. This is a starting point to customise how you display a MKMarkerAnnotation:
 
@@ -74,3 +74,25 @@ func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnota
 
   }
 ```
+
+### Useful Extension
+
+Create a new swift file in your project called `LocationExtensions` and add the following: 
+
+```swift 
+
+extension CLLocationCoordinate2D {
+  
+  var asLocation: CLLocation {
+    return CLLocation(latitude: latitude, longitude: longitude)
+  }
+  
+}
+
+```
+ Converting between CLLocationCoordinate2D and CLLocation objects is common, this enables all CLLocationCoordinate2D objects to have CLLocation property via `.asLocation`. 
+
+
+
+
+
