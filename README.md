@@ -18,7 +18,7 @@ Here you will find support material for the content delivered in the workshops.
 + [10 - Device Location](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/10-DeviceLocation)
 + [11 - Map Kit](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/11-MapKit)
 + [12 - Regions](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/12-Regions)
-+ [13 - Firebase](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/13-Firebase)
++ [13 - Selecting Annotations](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/13-13-SelectingAnnotations)
 + [14 - User Login](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/14-UserLogin)
 + [15 - User Signup](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/15-UserSignup)
 + [16 - ML Image Labeling](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/16-ImageLabeling)
