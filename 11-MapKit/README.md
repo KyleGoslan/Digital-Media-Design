@@ -16,9 +16,9 @@ Map views work as you would expect right out the box, they are available as a vi
 The easiest way to add an annotation to the map is with an `MKPointAnnotation`:
 
 ```swift 
-	let annoation = MKPointAnnotation()
-  annoation.coordinate = CLLocationCoordinate2D(latitude: 51.419014, longitude: -0.610961)
-  annoation.title = "Hello World"
-  mapView.addAnnotation(annoation)
+	let annotation = MKPointAnnotation()
+  annotation.coordinate = CLLocationCoordinate2D(latitude: 51.419014, longitude: -0.610961)
+  annotation.title = "Hello World"
+  mapView.addAnnotation(annotation)
 ```
 
