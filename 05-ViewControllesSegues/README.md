@@ -89,7 +89,7 @@ This is how we can "pass" some data to the next view controller:
 ``` swift
 override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
 	if segue.identifier == "GameOver" { 
-		viewController = segue.destination as! NewViewController
+		let viewController = segue.destination as! NewViewController
 		//Set the data you want to pass...
 	}
 }
