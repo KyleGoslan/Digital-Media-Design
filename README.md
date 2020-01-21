@@ -55,7 +55,6 @@ When you navigate to the repo in a browser, along the top navigation you'll see 
 ### Resources
 + [Swift.org Language Tour ](https://docs.swift.org/swift-book/GuidedTour/GuidedTour.html)
 + [Apple Developer Documentation](https://developer.apple.com/documentation)
-+ [Lynda - Swift 4 Essential Training](https://www.lynda.com/Swift-tutorials/Swift-4-Essential-Training/636121-2.html)
 + [iOS Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/ios/overview/themes/)
 + [Ray Wenderlich Website](http://raywenderlich.com/)
 
