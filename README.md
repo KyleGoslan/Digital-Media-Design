@@ -6,7 +6,7 @@ Here you will find support material for the content delivered in the workshops.
 
 ### Contents
 + [00-General-Syntax](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/00-GeneralSyntax)
-+ [01 - Hi-Lo Game](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/01-HiLoGame)
++ [01 - Slider Game](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/01-SliderGame)
 + [02 - Fundamentals](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/02-Fundamentals)
 + [03 - Functions](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/03-Functions)
 + [04 - Control Flow](https://github.com/KyleGoslan/Digital-Media-Design/tree/master/04-ControlFlow)
@@ -57,6 +57,7 @@ When you navigate to the repo in a browser, along the top navigation you'll see 
 + [Apple Developer Documentation](https://developer.apple.com/documentation)
 + [iOS Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/ios/overview/themes/)
 + [Ray Wenderlich Website](http://raywenderlich.com/)
++ [LinkedIn Learning Course](https://www.linkedin.com/learning/swift-5-essential-training/)
 
 
 
