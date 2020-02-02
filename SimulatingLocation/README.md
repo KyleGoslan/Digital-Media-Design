@@ -13,7 +13,7 @@ This example has a user move between three points around bournemouth. You can ch
     </wpt>
     
     <wpt lat="50.715634" lon="-1.874866">
-      <time>2014-09-24T14:55:50Z</time>
+      <time>2014-09-24T14:55:22Z</time>
     </wpt>
   
     

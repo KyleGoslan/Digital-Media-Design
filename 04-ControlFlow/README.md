@@ -14,16 +14,13 @@ An 'else' most commonly follows an 'if'. In the diagram above the 'else' is the 
 
 This provides an alternative action option for exmaple:
 
-    ```swift
-
-        if thereIsSomethingHere {
-            YES doThis 
-            } else {
-            NO doSomethingDifferent 
-            }  
-
-        }
-    ```    
+```swift
+if thereIsSomethingHere {
+    YES doThis 
+} else {
+    NO doSomethingDifferent 
+}  
+```    
 
 ### guard 
 Guard statements are used to unwrap optionals and they provide alternate solution for conditional unwrapping. So it is a more secure version of an if statement becuase:
@@ -47,13 +44,13 @@ Uses an array (list) of items. The command then filters through the list and the
 ### For In 
 Loops through an arrary (list). It looks for a specific value within an specific array. For example: 
 
-    ```swift 
+```swift 
 
-        let names = ["Grace", "Kyle", "Ellen", "John"]
-        
-        for name in names {
-            print("Hello, \(name)!")
-        }
-    
+let names = ["Grace", "Kyle", "Ellen", "John"]
 
-    ```
+for name in names {
+    print("Hello, \(name)!")
+}
+
+
+```
